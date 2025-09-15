@@ -19,6 +19,9 @@ Thobias Kristiansson @00thokri
 # Acknowledgements
 This project was built mainly through following these Microsofts Azure tutorials
 https://learn.microsoft.com/en-us/azure/azure-functions/how-to-create-function-vs-code?pivots=programming-language-csharp
+
 https://learn.microsoft.com/en-us/azure/azure-sql/database/free-offer?view=azuresql
+
 https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-azure-sql-output?tabs=isolated-process%2Cnodejs-v4%2Cpython-v2&pivots=programming-language-csharp
+
 https://learn.microsoft.com/en-us/azure/azure-functions/functions-add-output-binding-azure-sql-vs-code?pivots=programming-language-csharp
