@@ -9,8 +9,21 @@ function submitVisit() {
             Name: name,
             Email: email
         };
+        if(name === "" || email === "") {
+            alert("Please fill in all fields.");
+            return;
+        }
+        if(!valid(email)){
+            alert("Please enter a valid email address.");
+            return;
+        }
         sendVisitToAPI(visitor);
     })
+}
+//Regex from geeksforgeeks.org
+function valid(email) {
+    const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return pattern.test(email);
 }
 
 async function sendVisitToAPI(visitor) {
